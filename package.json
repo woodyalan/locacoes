@@ -1,0 +1,21 @@
+{
+  "name": "viptech_locacoes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.3",
+    "sequelize-auto": "^0.8.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
